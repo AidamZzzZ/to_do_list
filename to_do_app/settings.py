@@ -99,7 +99,7 @@ DATABASES = {
 }
 
 database_url = os.environ.get('DATABASE_URL')
-DATABASES['default'] = dj_database_url.parse(database_url)
+DATABASES['default'] = dj_database_url.parse('postgresql://to_do_app_5hv2_user:dioUhkKAwocZnc27QuZAudLpaAdkHrSI@dpg-csvkbq23esus73d8qv10-a.oregon-postgres.render.com/to_do_app_5hv2')
 
 # postgresql://to_do_app_non7_user:HwZVZujh7IBMvPh5cvHFFkvvHrr4whA1@dpg-csvjsh8gph6c73augbvg-a.oregon-postgres.render.com/to_do_app_non7
 
