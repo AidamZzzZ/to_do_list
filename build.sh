@@ -8,6 +8,7 @@ npm run build
 pip install -r requirements.txt
 
 # Convert static asset files
+python manage.py tailwind build
 python manage.py collectstatic --no-input
 
 # Apply any outstanding database migrations
